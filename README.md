@@ -7,3 +7,7 @@ Currently in: Io-oxicify.github.io
 
 # IF YOU CAN GET THE FILES AND MANAGE TO EDIT EVERY PAGE,  
 **please may you PLEEEASE make a pull request about it**  
+
+# credits
+ddl-docs repo for the htmls  
+me: did the github pages stuff  
