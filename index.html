@@ -7,6 +7,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.gstatic.com" rel="preconnect">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
 
     <style>
@@ -23,22 +24,33 @@
             font-size: 3rem;
         }
 
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
         .box {
             background: #666;
             padding: 20px;
             border-radius: 10px;
-            display: inline-block;
         }
     </style>
 </head>
 <body>
-    <div class="box">
-        <h1>Hello there!!!</h1>
-        <p>this site is Oxic's site!!</p>
-    </div>
-    <div class="box">
-        <h1>What stuff i do!!!!</h1>
-        <p>usually, stupid programs, actual games at <a href="https://oxicjar.itch.io">My Itch!</a>
+    <div class="container">
+        <div class="box">
+            <h1>Hello there!!!</h1>
+            <p>this site is Oxic's site!!</p>
+        </div>
+
+        <div class="box">
+            <h1>What stuff i do!!!!</h1>
+            <p>usually, stupid programs, actual games at
+                <a href="https://oxicjar.itch.io">My Itch!</a>
+            </p>
+        </div>
     </div>
 </body>
-</html>
+</html> 
